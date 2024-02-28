@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    display: flex;
+    
+}
+header nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav span{
+    color: blue;
+}
+/*
+.hero{
+    text-align: center;
+    padding-top: 40px;
+}
+.hero h1{
+    margin-bottom: 30px;
+}
+.link{
+    margin-top: 12px;
+}
+
+.link a{
+    margin: 10px;
+}
+.second{
+    background-color: black;
+    color:white;
+    height: 60vh;
+
+}*/
+
+
+
+.hero{
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+    z-index: -1;
+    justify-content: center;
+    color: white;
+    width:100%;
+    height: 80vh;
+    background-color: black;  
+    
+}
+
+.hero1{
+    font-size:25px;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+.hero img{
+    width:100%;
+    height: 80vh;
+}
+
+
+.second img{
+   padding-top: 500px;
+   width:100%; 
+}
+
+.main{
+    display: inline;
+}
+.box{
+    position: absolute;
+    z-index: -1;
+    width:45%;
+    height: 50px;
+    background-color:white;
+    color:black;
+    overflow: hidden;
+}
+.box2{
+    position: absolute;
+    z-index: -1;
+    width:50%;
+    height: 100px;
+    background-color:white;
+    color:black;
+}
+
+.card h6,h1{
+    font-size:25px;
+    color:black;
+    text-align: center;
+   
+} 
+
+.content{
+    background-color: whitesmoke;
+    padding: 5%;
+}
+.content p{
+    font-size: 10px;
+  text-align: justify;
+}
+
+.list{
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    margin-top: 50px;
+}
+.footer-text p{
+margin-left: 70px;
+}
+
+.footer-nav{
+    
+    padding: 14px;
+}
+.footer-nav ul{
+    list-style: none;
+}
+
+.footer-nav ul li{
+    display:inline;
+    margin-left: 40px;
+}
